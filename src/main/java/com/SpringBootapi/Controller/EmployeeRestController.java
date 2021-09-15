@@ -40,7 +40,7 @@ public class EmployeeRestController {
 		return employee;	
 	}
 	
-	@PutMapping("/{id}")
+	@PutMapping("")
 	public Employee updateEmployee(@RequestBody Employee employee) {
 		employeeService.save(employee);
 		return employee;	
